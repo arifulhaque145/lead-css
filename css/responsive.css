@@ -1,36 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    * {
+@media (min-width: 0px) and (max-width: 480px) {
+    body {
         background-color: red;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    * {
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
         background-color: blue;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    * {
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
         background-color: green;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    * {
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body {
         background-color: yellow;
     }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-    * {
-        background-color: cyan;
-    }
-} */

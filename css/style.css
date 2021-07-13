@@ -18,181 +18,229 @@ body {
     ;
 }
 
+.bg--violet {
+    background-color: #562EFF;
+}
+
+.bg--white {
+    background-color: white;
+}
+
+.bg--ltred {
+    background-color: rgba(254, 229, 223, 1);
+}
+
+.txt--white {
+    color: white;
+}
+
+.txt--violet {
+    color: #562EFF;
+}
+
+.txt--red {
+    color: rgba(237, 107, 79, 1);
+}
+
+.txt--ash {
+    color: rgba(162, 162, 162, 1);
+}
 
 /* ====================================
             navbar styles
 ==================================== */
 
 .navbar {
-    background-color: #562EFF;
-    width           : 100%;
-    height          : 94px;
-    display         : flex;
-    align-content   : center;
-    justify-content : space-around;
-    align-items     : center;
+    width          : 100%;
+    height         : 5.88rem;
+    display        : flex;
+    align-content  : center;
+    justify-content: space-around;
+    align-items    : center;
 }
 
 .navbar__logo {
-    width         : 200px;
+    width         : 12.5rem;
     display       : flex;
     flex-direction: row;
-    margin-left   : 45px;
+    margin-left   : 2.81rem;
 }
 
-.navbar__logo-img {
-    width : 40.42px;
-    height: 51px;
+.navbar__logo__img {
+    width : 2.53rem;
 }
 
-.navbar__logo-title {
+.navbar__logo__title {
     display     : flex;
     align-items : center;
-    padding-left: 15.58px;
-    font-size   : 24px;
-    color       : #ffffff;
+    padding-left: 0.97rem;
+    font-size   : 1.5rem;
 }
 
 .navbar__nav {
     display     : flex;
     align-items : center;
-    margin-right: 50px;
+    margin-right: 3.13rem;
 }
 
 .navbar__nav a {
     color          : #ffffff;
     font-style     : normal;
-    padding-left   : 35px;
+    padding-left   : 2.19rem;
     text-decoration: none;
 }
 
 .navbar__nav a img {
-    height: 51px;
-    width : 51px;
+    height: 2.19rem;
+    width : 2.19rem;
 }
 
 
 /* ====================================
-            Top Styles
+            Card1 Styles
 ==================================== */
 
-.top {
-    width        : 870px;
-    height       : 679px;
-    background   : #ffffff;
-    margin-top   : 36px;
-    border-radius: 5px;
-    padding      : 33px;
+.card1 {
+    width        : 54.38rem;
+    height       : 42.44rem;
+    margin-top   : 2.25rem;
+    border-radius: 0.25rem;
+    padding      : 2rem;
 }
 
-.top__title {
+.card1__title {
     font-weight: 500;
-    font-size  : 24px;
-    margin     : 0 0 40px 0;
+    font-size  : 1.5rem;
+    margin     : 0 0 2.5rem 0;
 }
 
-.top__title--color {
-    color: #562EFF;
-}
-
-.top-players {
+.card1__list {
     display              : grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom        : 30px;
+    margin-bottom        : 2rem;
 }
 
-.top-players-player {
+.card1__list__item {
     display    : flex;
     align-items: center;
-    margin     : 15px 15px;
+    margin     : 1rem 1rem;
     margin-left: 0px;
 }
 
-.top-players-player img {
-    width : 56px;
-    height: 56px;
+.card1__list__item img {
+    width : 3.5rem;
+    height: 3.5rem;
 }
 
-.top-players-player span {
-    padding-left: 16px;
-    font-size   : 18px;
+.card1__list__item span {
+    padding-left: 1rem;
+    font-size   : 1.13rem;
     font-style  : normal;
     font-weight : 500;
 }
 
 
 /* ====================================
-            Blog Styles
+            Card2 Styles
 ==================================== */
 
-.top-blogs-lists {
+.card2__list {
     display              : grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.top-blogs-blog {
+.card2__list__item {
     display      : flex;
-    margin-bottom: 26px;
+    margin-bottom: 1.5rem;
 }
 
-.top-blogs-blog img {
-    width : 177px;
-    height: 117px;
+.card2__list__item img {
+    width : 11.06rem;
+    height: 7.31rem;
 }
 
-/* COurses */
-
-.course-info {
-    width        : 224px;
-    border-radius: 15px;
-    padding      : 12px;
-    box-shadow   : 0 0 20px rgba(0, 0, 0, 0.15);
+.card2__list__item__info {
+    margin-left: 15px;
 }
 
-.course-info img {
-    height       : 104px;
-    width        : 224px;
-    margin-bottom: 19px;
+.card2__list__item__info__title {
+    font-size : 1.25rem;
+    margin    : 0;
+    margin-top: 0.75rem;
 }
 
-.star-list>a>i {
-    height: 35px;
-    width : 35px;
+.card2__list__item__info__writter {
+    font-size : 1rem;
+    margin    : 0;
+    margin-top: 0.5rem;
 }
 
-.top--rating {
-    display        : flex;
-    justify-content: space-around;
-    align-items    : center;
-    margin-top     : 20px;
+.card2__list__item__info__writter span {
+    color: rgba(162, 162, 162, 1);
 }
 
-.top--title {
-    margin     : 0;
-    font-size  : 16px;
-    font-weight: 500;
-    line-height: 1;
+/* ====================================
+            Card3 Styles
+==================================== */
+
+.card3 {
+    width        : 54.38rem;
+    height       : 22.65rem;
+    margin-top   : 2.25rem;
+    border-radius: 0.25rem;
+    padding      : 2rem;
+    margin-bottom: 1.75;
 }
 
-.top--time {
-    border-radius   : 20px;
-    padding         : 0 5px 0 5px;
-    background-color: rgba(254, 229, 223, 1);
-    color           : rgba(237, 107, 79, 1);
-    font-size       : 14px;
-}
-
-.course-list {
+.card3__list {
     display              : grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.top-course {
-    width        : 870px;
-    height       : 362px;
-    background   : #ffffff;
-    margin-top   : 36px;
-    border-radius: 5px;
-    padding      : 33px;
-    margin-bottom: 28px;
+.card3__list img {
+    height       : 6.5rem;
+    width        : 14rem;
+    margin-bottom: 1.25rem;
+}
+
+.card3__list__item {
+    width        : 14rem;
+    border-radius: 1rem;
+    padding      : 0.75rem;
+    box-shadow   : 0 0 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+.card3__list__item__title {
+    margin     : 0;
+    font-size  : 1.13rem;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.card3__star__list {
+    display       : flex;
+    align-items   : center;
+}
+
+.card3__star__list a {
+    padding-right: 0.13rem;
+    font-size    : 0.75rem;
+    color        : #FFC014;
+}
+
+.card3__rating {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-top     : 1.25rem;
+}
+
+.card3__rating span {
+    font-size: 0.75rem;
+}
+
+.card3__time {
+    border-radius: 1.25rem;
+    padding      : 0 0.25rem 0 0.25rem;
+    font-size    : 0.75rem;
 }
